@@ -17,7 +17,7 @@ test('same seed gives the same sequence', () => {
 })
 
 test('different seeds give different sequences', () => {
-    // 1. Set up: make two generators from the SAME seed
+    // 1. Set up: make two generators from a DIFFERENT seed
   const a = mulberry32(123)
   const b = mulberry32(124)
 
